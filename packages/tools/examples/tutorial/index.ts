@@ -28,6 +28,8 @@ import {
   setTitleAndDescription,
 } from '../../../../utils/demo/helpers';
 
+import setupUI from './setupUI';
+
 // This is for debugging purposes
 console.warn(
   'Click on index.ts to open source code for this example --------->'
@@ -68,6 +70,9 @@ async function run() {
    *
    *
    */
+
+  // Final code
+  setupUI();
 }
 
 run();

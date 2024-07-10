@@ -175,5 +175,8 @@
     "not dead",
     "not ie < 11",
     "not op_mini all"
-  ]
+  ],
+  "dependencies": {
+    "dicom-parser": "^1.8.21"
+  }
 }
